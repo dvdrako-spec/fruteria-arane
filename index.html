@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frutería Arane — Fruta y verdura fresca en Errekalde, Bilbao</title>
+<meta name="description" content="Frutería Arane, en Arane Kalea 3, Errekalde (Bilbao). Fruta y verdura fresca cada día, frutos secos y panadería de barrio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:wght@400;700&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#inicio">
+      <span class="brand-mark" aria-hidden="true">A</span>
+      <span class="brand-name">Frutería<br>Arane</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Abrir menú</span>
+    </button>
+
+    <nav class="primary-nav" id="primaryNav">
+      <a href="#inicio">Inicio</a>
+      <a href="#siempre">Lo de cada día</a>
+      <a href="#horario">Horario</a>
+      <a href="#llegar">Cómo llegar</a>
+      <a class="nav-cta" href="tel:+34606535082">Llamar</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Errekalde · Bilbao</p>
+        <h1 class="stamp-title">
+          <span>Frutería</span>
+          <span>Arane</span>
+        </h1>
+        <p class="hero-lede">Del puesto a tu cesta. Fruta y verdura fresca cada día, sin prisa y sin vueltas, en pleno Errekalde.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&destination=43.2507762,-2.9361205" target="_blank" rel="noopener">Cómo llegar</a>
+          <a class="btn btn-ghost" href="tel:+34606535082">+34 606 53 50 82</a>
+        </div>
+
+        <ul class="hero-facts">
+          <li><strong>4 calles</strong> desde el metro de Errekalde</li>
+          <li><strong>Abierto</strong> todos los días de la semana</li>
+          <li><strong>15 valoraciones</strong> en Google</li>
+        </ul>
+      </div>
+
+      <div class="hero-stamp" aria-hidden="true">
+        <svg viewBox="0 0 220 220" class="stamp-svg">
+          <defs>
+            <filter id="inkRough" x="-20%" y="-20%" width="140%" height="140%">
+              <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" result="noise" seed="7"/>
+              <feDisplacementMap in="SourceGraphic" in2="noise" scale="6"/>
+            </filter>
+          </defs>
+          <g filter="url(#inkRough)">
+            <circle cx="110" cy="110" r="100" fill="none" stroke="currentColor" stroke-width="5"/>
+            <circle cx="110" cy="110" r="84" fill="none" stroke="currentColor" stroke-width="2"/>
+            <path id="stampCircle" d="M110,30 a80,80 0 1,1 -0.1,0" fill="none"/>
+            <text font-family="'Space Mono', monospace" font-size="13.5" letter-spacing="3" fill="currentColor">
+              <textPath href="#stampCircle" startOffset="2%">FRESCO · DE BARRIO · ERREKALDE · FRESCO ·</textPath>
+            </text>
+            <text x="110" y="100" text-anchor="middle" font-family="Anton, sans-serif" font-size="30" fill="currentColor">FRESCO</text>
+            <text x="110" y="128" text-anchor="middle" font-family="Anton, sans-serif" font-size="30" fill="currentColor">DEL DÍA</text>
+            <path d="M85,140 q25,18 50,0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="torn-edge" aria-hidden="true"></div>
+  </section>
+
+  <!-- LO DE CADA DÍA -->
+  <section class="section staples" id="siempre">
+    <div class="wrap">
+      <p class="eyebrow">Lo de cada día</p>
+      <h2 class="section-title">Lo que siempre encuentras en el mostrador</h2>
+
+      <div class="crate-grid">
+
+        <article class="crate-card">
+          <svg class="crate-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <circle cx="26" cy="34" r="16" fill="none" stroke="currentColor" stroke-width="3"/>
+            <circle cx="42" cy="30" r="11" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M26 18c2-6 8-8 10-7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <h3>Fruta de temporada</h3>
+          <p>La que toca en cada mes, elegida pieza a pieza para que llegue madura a casa.</p>
+        </article>
+
+        <article class="crate-card">
+          <svg class="crate-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M32 14v28" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M32 14c-6 0-10 4-10 4s4 6 10 6 10-6 10-6-4-4-10-4z" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M20 50c0-8 5-13 12-13s12 5 12 13" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <h3>Verdura fresca</h3>
+          <p>Las de toda la vida y las de cada estación, repuestas a diario.</p>
+        </article>
+
+        <article class="crate-card">
+          <svg class="crate-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <rect x="14" y="26" width="36" height="22" rx="3" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M18 26c0-8 6-14 14-14s14 6 14 14" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M14 36h36" stroke="currentColor" stroke-width="2"/>
+          </svg>
+          <h3>Frutos secos y encurtidos</h3>
+          <p>Al peso, en la cantidad justa que necesites para esta semana.</p>
+        </article>
+
+        <article class="crate-card">
+          <svg class="crate-icon" viewBox="0 0 64 64" aria-hidden="true">
+            <path d="M16 30c0-9 7-16 16-16s16 7 16 16-7 9-16 9-16 0-16-9z" fill="none" stroke="currentColor" stroke-width="3"/>
+            <path d="M14 40h36l-3 10H17z" fill="none" stroke="currentColor" stroke-width="3"/>
+          </svg>
+          <h3>Panadería del barrio</h3>
+          <p>Pan del día de obrador cercano, para llevar junto con la compra.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HORARIO -->
+  <section class="section schedule" id="horario">
+    <div class="wrap schedule-inner">
+      <div class="schedule-board">
+        <p class="eyebrow">Horario</p>
+        <h2 class="section-title">Cuándo nos encuentras abiertos</h2>
+        <table class="hours-table">
+          <tbody>
+            <tr><th>Lunes – Viernes</th><td>9:00 – 20:00</td></tr>
+            <tr><th>Sábado</th><td>10:00 – 15:00</td></tr>
+            <tr><th>Domingo</th><td>10:00 – 14:00</td></tr>
+          </tbody>
+        </table>
+        <p class="schedule-note">Festivos locales: horario puede variar — mejor confirmar por teléfono si vienes desde lejos.</p>
+      </div>
+      <div class="schedule-stamp" aria-hidden="true">
+        <svg viewBox="0 0 160 160">
+          <circle cx="80" cy="80" r="70" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="2 6"/>
+          <text x="80" y="76" text-anchor="middle" font-family="Anton, sans-serif" font-size="20" fill="currentColor">ABIERTO</text>
+          <text x="80" y="98" text-anchor="middle" font-family="'Space Mono', monospace" font-size="11" letter-spacing="2" fill="currentColor">TODOS LOS DÍAS</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO LLEGAR -->
+  <section class="section locate" id="llegar">
+    <div class="wrap">
+      <p class="eyebrow">Errekalde, Bilbao</p>
+      <h2 class="section-title">Cómo llegar</h2>
+
+      <div class="locate-grid">
+        <div class="locate-card">
+          <h3>Frutería Arane</h3>
+          <p class="addr">Arane Kalea, 3<br>Errekalde, 48012 Bilbao, Bizkaia</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&destination=43.2507762,-2.9361205" target="_blank" rel="noopener">Cómo llegar</a>
+            <a class="btn btn-ghost" href="tel:+34606535082">+34 606 53 50 82</a>
+          </div>
+        </div>
+
+        <div class="map-frame">
+          <iframe
+            title="Mapa de Frutería Arane"
+            src="https://maps.google.com/maps?q=Fruteria%20Arane%2C%20Arane%20Kalea%2C%203%2C%20Errekalde%2C%2048012%20Bilbao%2C%20Bizkaia%2C%20Spain&hl=es&z=15&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <p class="brand-name footer-brand">Frutería Arane</p>
+      <p>Arane Kalea, 3 · Errekalde · 48012 Bilbao</p>
+    </div>
+    <div class="footer-contact">
+      <a href="tel:+34606535082">+34 606 53 50 82</a>
+      <a href="https://maps.google.com/?cid=15131239433417154931" target="_blank" rel="noopener">Ver en Google Maps</a>
+    </div>
+  </div>
+  <div class="wrap footer-copy">
+    <p>© <span id="year"></span> Frutería Arane.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
